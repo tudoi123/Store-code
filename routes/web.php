@@ -34,7 +34,6 @@ Route::resource('/contactadmin', ContactAdminController::class);
 
 Route::resource('/about', AboutController::class);
 
-
 Route::group(['middleware' => 'guest'], function (){
 
     Route::get('/register', [AuthController::class, 'register'])->name('register'); 

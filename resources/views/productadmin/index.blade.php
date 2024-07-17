@@ -15,7 +15,7 @@
 <table class="table table-hover">
         <thead class="table-primary">
             <tr>
-                <th>#</th>
+                <th>No</th>
                 <th>Title</th>
                 <th>Price</th>
                 <th>Image</th>
@@ -39,7 +39,7 @@
                                 <form action="{{ route('product.destroy', $rs->id) }}" method="POST" type="button" class="btn btn-danger p-0" onsubmit="return confirm('Delete?')">
                                     @csrf
                                     @method('DELETE')
-                                    <button class="btn btn-danger m-0">Delete</button>
+                                    <button class="btn btn-danger m-0">Delete</button>  
                                 </form>
                             </div>
                         </td>

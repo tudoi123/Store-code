@@ -62,7 +62,7 @@
                                     <div class="full">
                                         <div class="center-desk">
                                             <div class="logo">
-                                                <a href="home"><img src="images/logosach.jpg" alt="#"></a>
+                                                <a href="admin"><img src="images/logosach.jpg" alt="#"></a>
                                             </div>
                                         </div>
                                     </div>
